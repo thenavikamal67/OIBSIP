@@ -1,0 +1,54 @@
+Calculator Project
+
+📌 Project Overview
+This project is a simple and responsive Calculator developed using **HTML, CSS, and JavaScript**. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division through an interactive user interface.
+
+🚀 Features
+- User-friendly calculator interface
+- Performs basic arithmetic operations:
+  - Addition (+)
+  - Subtraction (-)
+  - Multiplication (×)
+  - Division (÷)
+- Clear button to reset calculations
+- Responsive design
+- Vibrant and attractive color scheme
+
+🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+📂 Project Structure
+Calculator/
+│
+├── index.html
+├── style.css
+└── script.js
+
+▶️ How to Run
+1. Download or clone the repository.
+2. Open the `Calculator` folder.
+3. Double-click `index.html` or open it in any web browser.
+4. Start performing calculations.
+
+📸 Output
+The calculator provides a colorful and interactive interface for performing basic mathematical calculations.
+<img width="1910" height="1073" alt="image" src="https://github.com/user-attachments/assets/a7e33282-73bb-46b7-9653-83348552341b" />
+
+
+🎯 Learning Outcomes
+Through this project, I learned:
+- Creating web page layouts using HTML
+- Styling user interfaces with CSS
+- Implementing calculator logic using JavaScript
+- Handling user interactions and events
+
+📖 Future Enhancements
+- Scientific calculator functions
+- Keyboard input support
+- Calculation history
+- Dark/Light mode toggle
+
+👨‍💻 Author
+Thenavi K
