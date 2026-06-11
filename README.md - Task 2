@@ -1,0 +1,54 @@
+📖 Project Overview
+This project is a Tribute Page dedicated to Dr. A.P.J. Abdul Kalam (1931–2015), the former President of India and one of the country's most respected scientists. The webpage highlights his image, a famous quote, and a brief biography in a visually appealing and responsive layout.
+
+The project is built using HTML and CSS and demonstrates fundamental web development concepts such as page structure, styling, responsive design, and image integration.
+
+✨ Features
+Responsive and user-friendly design
+Vibrant gradient background
+Glassmorphism-style content container
+Tribute heading with birth and death years
+Local image of Dr. A.P.J. Abdul Kalam
+Famous inspirational quote
+Brief biography section
+Mobile-friendly layout
+
+🛠️ Technologies Used
+HTML5
+CSS3
+
+📂 Project Structure
+Tribute-Page/
+│
+├── index.html
+├── style.css
+├── README.md
+│
+└── images/
+    └── kalam.jpg
+    
+🖼️ Using a Local Image
+Place the image of Dr. A.P.J. Abdul Kalam inside the images folder and update the image source in index.html:
+<img src="images/kalam.jpg" alt="A.P.J. Abdul Kalam">
+
+🚀 How to Run the Project
+Download or clone the repository.
+Ensure the image file is stored in the images folder.
+Open index.html in any web browser.
+View the tribute page.
+
+📸 Screenshot
+
+
+🌟 About Dr. A.P.J. Abdul Kalam
+Dr. A.P.J. Abdul Kalam was an eminent scientist, educator, and the 11th President of India. Known as the "Missile Man of India", he played a significant role in India's space and missile development programs. His dedication to education, innovation, and national development continues to inspire millions around the world.
+
+💬 Famous Quote
+"Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."
+— Dr. A.P.J. Abdul Kalam
+
+👩‍💻 Author
+Thenavi K
+
+📜 License
+This project is created for educational and learning purposes. Feel free to use and modify it for personal projects.
