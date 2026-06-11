@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to A.P.J. Abdul Kalam</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f4f4f4;
+            color:#333;
+            line-height:1.6;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:30px auto;
+            padding:20px;
+            background:white;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .header{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .header h1{
+            font-size:3rem;
+            color:#0d47a1;
+        }
+
+        .header p{
+            font-size:1.2rem;
+            color:#666;
+        }
+
+        .content{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+            margin-bottom:30px;
+        }
+
+        .content img{
+            width:300px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.3);
+        }
+
+        .quote{
+            max-width:400px;
+            font-size:1.5rem;
+            font-style:italic;
+            color:#1565c0;
+        }
+
+        .about h2{
+            margin-bottom:15px;
+            color:#0d47a1;
+        }
+
+        .about p{
+            text-align:justify;
+            font-size:1.1rem;
+        }
+
+        footer{
+            text-align:center;
+            margin-top:20px;
+            color:#777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>A.P.J. Abdul Kalam</h1>
+            <p>1931 - 2015</p>
+        </div>
+
+        <div class="content">
+            <img src="images/kalam.jpg" alt="A.P.J. Abdul Kalam">
+
+            <div class="quote">
+                "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>About Dr. A.P.J. Abdul Kalam</h2>
+
+            <p>
+                Dr. Avul Pakir Jainulabdeen Abdul Kalam was one of India's most respected
+                scientists and the 11th President of India. Known as the "Missile Man of India,"
+                he played a crucial role in the development of India's missile and space programs.
+                Born on October 15, 1931, in Rameswaram, Tamil Nadu, he overcame many challenges
+                through hard work and dedication. His contributions to science, technology, and
+                education inspired millions of people. Dr. Kalam was admired for his humility,
+                vision, and passion for empowering young minds. Even after becoming President,
+                he remained a teacher at heart and continued motivating students across the country.
+                His life remains a symbol of perseverance, knowledge, and service to the nation.
+            </p>
+        </div>
+
+        <footer>
+            Tribute to the People's President of India
+        </footer>
+
+    </div>
+
+</body>
+</html>
