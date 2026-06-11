@@ -1,125 +1,150 @@
+INDEX.HTML 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute to A.P.J. Abdul Kalam</title>
-
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body{
-            font-family: Arial, sans-serif;
-            background-color:#f4f4f4;
-            color:#333;
-            line-height:1.6;
-        }
-
-        .container{
-            max-width:1000px;
-            margin:30px auto;
-            padding:20px;
-            background:white;
-            border-radius:10px;
-            box-shadow:0 0 10px rgba(0,0,0,0.2);
-        }
-
-        .header{
-            text-align:center;
-            margin-bottom:30px;
-        }
-
-        .header h1{
-            font-size:3rem;
-            color:#0d47a1;
-        }
-
-        .header p{
-            font-size:1.2rem;
-            color:#666;
-        }
-
-        .content{
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            gap:30px;
-            flex-wrap:wrap;
-            margin-bottom:30px;
-        }
-
-        .content img{
-            width:300px;
-            border-radius:10px;
-            box-shadow:0 0 10px rgba(0,0,0,0.3);
-        }
-
-        .quote{
-            max-width:400px;
-            font-size:1.5rem;
-            font-style:italic;
-            color:#1565c0;
-        }
-
-        .about h2{
-            margin-bottom:15px;
-            color:#0d47a1;
-        }
-
-        .about p{
-            text-align:justify;
-            font-size:1.1rem;
-        }
-
-        footer{
-            text-align:center;
-            margin-top:20px;
-            color:#777;
-        }
-    </style>
+    <title>Tribute Page - Dr. A.P.J. Abdul Kalam</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
-
-        <div class="header">
-            <h1>A.P.J. Abdul Kalam</h1>
-            <p>1931 - 2015</p>
-        </div>
-
-        <div class="content">
-            <img src="images/kalam.jpg" alt="A.P.J. Abdul Kalam">
-
-            <div class="quote">
-                "Dream, dream, dream. Dreams transform into thoughts and thoughts result in action."
+        <header>
+            <h1>Dr. A.P.J. Abdul Kalam</h1>
+            <h3>1931 - 2015</h3>
+        </header>
+        <section class="hero">
+            <div class="image-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/A._P._J._Abdul_Kalam.jpg" alt="A.P.J. Abdul Kalam">
             </div>
-        </div>
-
-        <div class="about">
+            <div class="quote-box">
+                <h2>Famous Quote</h2>
+                <p>
+                    "Dream, dream, dream. Dreams transform into thoughts
+                    and thoughts result in action."
+                </p>
+            </div>
+        </section>
+        <section class="about">
             <h2>About Dr. A.P.J. Abdul Kalam</h2>
-
             <p>
-                Dr. Avul Pakir Jainulabdeen Abdul Kalam was one of India's most respected
-                scientists and the 11th President of India. Known as the "Missile Man of India,"
-                he played a crucial role in the development of India's missile and space programs.
-                Born on October 15, 1931, in Rameswaram, Tamil Nadu, he overcame many challenges
-                through hard work and dedication. His contributions to science, technology, and
-                education inspired millions of people. Dr. Kalam was admired for his humility,
-                vision, and passion for empowering young minds. Even after becoming President,
-                he remained a teacher at heart and continued motivating students across the country.
-                His life remains a symbol of perseverance, knowledge, and service to the nation.
+                Dr. Avul Pakir Jainulabdeen Abdul Kalam, popularly known as
+                the "Missile Man of India", was an eminent scientist and the
+                11th President of India. He played a vital role in India's
+                civilian space program and military missile development.
+                His contributions to science and technology earned him immense
+                respect across the world.
+
+                Beyond his scientific achievements, Dr. Kalam was a beloved
+                teacher, author, and visionary leader who inspired millions of
+                students to pursue their dreams. His humility, dedication,
+                and passion for education continue to motivate people even today.
+                He remains one of India's most admired personalities and a
+                symbol of knowledge, integrity, and service to the nation.
             </p>
-        </div>
-
-        <footer>
-            Tribute to the People's President of India
-        </footer>
-
+        </section>
     </div>
-
 </body>
 </html>
+
+STYLE.CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #ff6b6b, #6c5ce7, #00cec9);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+header h3 {
+    font-size: 1.5rem;
+    color: #ffeaa7;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.image-box img {
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+.quote-box {
+    flex: 1;
+    min-width: 280px;
+    background: rgba(255,255,255,0.2);
+    padding: 25px;
+    border-radius: 20px;
+}
+.quote-box h2 {
+    color: #ffeaa7;
+    margin-bottom: 15px;
+}
+.quote-box p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    font-style: italic;
+}
+.about {
+    background: rgba(255,255,255,0.2);
+    padding: 25px;
+    border-radius: 20px;
+}
+.about h2 {
+    color: #ffeaa7;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .quote-box p {
+        font-size: 1.2rem;
+    }
+}
